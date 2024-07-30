@@ -13,7 +13,7 @@ config = wandb.config
 print('Config file from wandb:', config)
 
 # load dataset
-dataloader = CUBDataLoader('../TransZero-train', config.device, is_balance=False)
+dataloader = CUBDataLoader('.', config.device, is_balance=False)
 
 # set random seed
 seed = config.random_seed
