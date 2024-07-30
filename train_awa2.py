@@ -3,7 +3,7 @@ import torch
 import torch.optim as optim
 import torch.nn as nn
 import numpy as np
-from model_TZ import TransZero
+from model_harn import TransZero
 from dataset import AWA2DataLoader
 from  helper_func import eval_zs_gzsl
 
