@@ -13,7 +13,7 @@ config = wandb.config
 print('Config file from wandb:', config)
 
 # load dataset
-dataloader = AWA2DataLoader('../TransZero-train', config.device)
+dataloader = AWA2DataLoader('.', config.device)
 
 # set random seed
 seed = config.random_seed
